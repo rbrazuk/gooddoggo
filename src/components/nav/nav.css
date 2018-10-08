@@ -5,16 +5,21 @@
 }
 
 .navigation li {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: inline;
-  margin-right: 20px;
+  margin-right: 15px;
   font-family: 'Nanum Pen Script', 'Roboto', sans-serif;
 }
 
 .navigation li a {
-  color: #1E1A55;
+  color: #FFF;
+  -webkit-transition: color .2s;
+  transition: color .2s;
 }
 
 .navigation li a:hover {
   color: #6FB431;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+  text-decoration: none;
 }

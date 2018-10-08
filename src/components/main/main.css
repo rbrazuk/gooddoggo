@@ -1,9 +1,58 @@
 main {
-  padding: 0 10%;
+  padding: 0;
+  color: #555;
 }
 
-main p {
+section p {
   line-height: 1.5em;
+  margin: 0 5%;
+}
+
+h1, h3 {
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #6FB431;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+h3 {
+
+  font-size: 1.5rem;
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #6FB431;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+section {
+  padding: 30px 5%;
+
+}
+
+section:nth-child(even) {
+  background-color: #f4f4f4;
 }
 
 .main-image {
@@ -21,4 +70,10 @@ main p {
 
 .sidebar-image {
   margin-bottom: 25px;
+}
+
+.list-container {
+  background-color: #FFF;
+  margin: 10px;
+  padding: 10px 0;
 }

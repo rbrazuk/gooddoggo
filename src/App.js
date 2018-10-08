@@ -10,7 +10,6 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Nav />
         <Main />
         <footer>footer</footer>
       </div>
