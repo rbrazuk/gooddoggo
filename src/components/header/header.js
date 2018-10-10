@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Nav from '../nav/nav';
-import logo from './logo.png';
+import logo from './logo-light.png';
 import placeholder from './placeholder.jpg';
 import headerImage from './header.jpg';
 
@@ -20,7 +20,7 @@ export default (props) => {
       </div>
         <div className="row">
           <div className='col-sm-12 header-content'>
-            <p>Philadelphia dog-walking service</p>
+            <p>A one-sentence blurb would <br />look really nice right about here</p>
             <a href="#contact"><button className="contact-button">Schedule</button></a>
           </div>
         </div>
