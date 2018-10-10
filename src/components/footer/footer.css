@@ -1,0 +1,33 @@
+footer {
+  color: #555;
+  background-color: #333;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+ footer .navigation {
+  list-style: none;
+  text-align: center;
+}
+
+footer .navigation li {
+  display: inline;
+  margin-right: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+footer .navigation li a {
+  font-size: 1rem;
+  color: #ccc;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+footer .navigation li a:hover {
+  color: #6FB431;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+  text-decoration: none;
+}

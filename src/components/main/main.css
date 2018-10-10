@@ -3,12 +3,13 @@ main {
   color: #555;
 }
 
-section p {
+ section p {
   line-height: 1.5em;
   margin: 0 5%;
+  margin-bottom: 15px;
 }
 
-h1, h3 {
+h1, h3, h4 {
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
@@ -25,10 +26,7 @@ h1:after {
     background-color: #6FB431;
     content: " ";
     width: 100px;
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
+    margin: 40px auto;
 }
 
 h3 {
@@ -36,44 +34,81 @@ h3 {
   font-size: 1.5rem;
 }
 
-h3:after {
+h4 {
+  font-size: 1rem;
+}
+
+h3:after, h4:after {
     display: block;
     height: 2px;
     background-color: #6FB431;
     content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 10px;
+    width: 200px;
+    margin: 25px auto;
+}
+
+h4:after {
+  margin: 15px auto;
 }
 
 section {
-  padding: 30px 5%;
-
+  padding: 50px 5%;
 }
 
 section:nth-child(even) {
   background-color: #f4f4f4;
 }
 
+a {
+  color: #6FB431;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
 .main-image {
   max-width: 100%;
 }
 
-.sidebar {
-  text-align: center;
-}
-
-.sidebar-header {
-  border-bottom: 1px solid black;
-  margin: 0 30% 15px 30%;
-}
-
-.sidebar-image {
-  margin-bottom: 25px;
+.about-pic {
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 .list-container {
   background-color: #FFF;
   margin: 10px;
   padding: 10px 0;
+}
+
+.bg-grey {
+  background-color: #f4f4f4;
+}
+
+.centered {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.centered i {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.section-list li {
+  margin-bottom: 10px;
+}
+
+.policies-bottom {
+  margin-top: 20px;
+}
+
+.highlighted {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }

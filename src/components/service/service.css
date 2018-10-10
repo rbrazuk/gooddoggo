@@ -1,0 +1,39 @@
+.service {
+  font-size: 1.2rem;
+  background-color: #FFF;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 250px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.service-name {
+  font-size: 1.4rem;
+  color: #6FB431;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.service-note {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.service-list {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 1rem;
+}

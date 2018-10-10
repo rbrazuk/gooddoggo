@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header/header';
 import Nav from './components/nav/nav';
 import Main from './components/main/main';
+import Footer from './components/footer/footer';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <div>
         <Header />
         <Main />
-        <footer>footer</footer>
+        <Footer />
       </div>
     );
   }

@@ -21,10 +21,10 @@ export default (props) => {
         <div className="row">
           <div className='col-sm-12 header-content'>
             <p>Philadelphia dog-walking service</p>
-            <button className="contact-button">Schedule</button>
+            <a href="#contact"><button className="contact-button">Schedule</button></a>
           </div>
         </div>
-        <i className="fas fa-chevron-down down-icon"></i>
+        <a href="#about"><i className="fas fa-chevron-down down-icon"></i></a>
     </header>
   )
 }
