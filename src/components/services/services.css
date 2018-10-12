@@ -43,6 +43,10 @@ tr {
     text-align: left;
   }
 
+  table {
+    margin-bottom: 0;
+  }
+
   thead {
     border: 1px solid #FFF;
   }
@@ -70,7 +74,7 @@ tr {
   td:nth-of-type(1):before { content: "Visit Length"; }
 	td:nth-of-type(2):before { content: "1 - 4 x per week"; }
 	td:nth-of-type(3):before { content: "5 x per week"; }
-	td:nth-of-type(4):before { content: "4"; }
-	td:nth-of-type(5):before { content: "5"; }
+	td:nth-of-type(4):before { content: "Additional Pets"; }
+	td:nth-of-type(5):before { content: "Medication"; }
 
 }
