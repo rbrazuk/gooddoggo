@@ -1,0 +1,76 @@
+table {
+  font-size: 1.2rem;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 20px;
+  margin-bottom: 20px;
+
+}
+
+thead {
+  border-bottom: 1px solid #ccc;
+}
+
+th, td {
+  text-align: center;
+}
+
+th {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+tr {
+  margin-bottom: 50px;
+}
+
+.no-border {
+  border-color: #FFF;
+}
+
+@media only screen and (max-width: 700px) {
+  table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+  thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+  th, td {
+    text-align: left;
+  }
+
+  thead {
+    border: 1px solid #FFF;
+  }
+
+  td {
+		border: none;
+		position: relative;
+		padding-left: 50%;
+	}
+
+  tr {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+
+  td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+  td:nth-of-type(1):before { content: "Visit Length"; }
+	td:nth-of-type(2):before { content: "1 - 4 x per week"; }
+	td:nth-of-type(3):before { content: "5 x per week"; }
+	td:nth-of-type(4):before { content: "4"; }
+	td:nth-of-type(5):before { content: "5"; }
+
+}

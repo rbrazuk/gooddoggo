@@ -1,13 +1,19 @@
+nav {
+  background-color: #1E1A55;
+}
+
 .navigation {
   list-style: none;
-  text-align: center;
-  margin-top: 10px;
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 20px;
+  line-height: 100%;
 }
 
 .navigation li {
   font-size: 1.8rem;
   display: inline;
-  margin-right: 15px;
+  margin-right: 20px;
   font-family: 'Nanum Pen Script', 'Roboto', sans-serif;
 }
 
@@ -22,4 +28,24 @@
   -webkit-transition: color .4s;
   transition: color .4s;
   text-decoration: none;
+}
+
+.logo {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .navigation li {
+    display: block;
+    font-size: 2em;
+    margin: 25px;
+  }
+
 }

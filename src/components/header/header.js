@@ -15,7 +15,7 @@ export default (props) => {
           <img className="header-logo" src={logo} />
         </div>
         <div className='col-sm-6 header-contact'>
-          <Nav />
+          
         </div>
       </div>
         <div className="row">

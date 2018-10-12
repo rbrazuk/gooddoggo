@@ -3,12 +3,6 @@ main {
   color: #555;
 }
 
- section p {
-  line-height: 1.5em;
-  margin: 0 5%;
-  margin-bottom: 15px;
-}
-
 h1, h3, h4 {
   text-align: center;
   font-weight: normal;
@@ -17,7 +11,7 @@ h1, h3, h4 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h1:after {
@@ -26,7 +20,7 @@ h1:after {
     background-color: #6FB431;
     content: " ";
     width: 100px;
-    margin: 40px auto;
+    margin: 25px auto;
 }
 
 h3 {
@@ -52,11 +46,8 @@ h4:after {
 }
 
 section {
-  padding: 50px 5%;
-}
-
-section:nth-child(even) {
-  background-color: #f4f4f4;
+  margin: 20px 10%;
+  padding: 0 30px;
 }
 
 a {
@@ -111,4 +102,10 @@ a:hover {
 
 .italic {
   font-style: italic;
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    margin: 0 10px;
+  }
 }
