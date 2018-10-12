@@ -26,7 +26,7 @@ export default (props) => {
       </div>
       <div className='col-sm-12 centered policies-bottom'>
         <p>Additional policies are outlined in the Service Agreement.</p>
-        <p className='italic'>* Articles on the dangers of Retractible Leashes: Consumer Reports, ABC News, PetMD, Dogster.</p>
+        <p className='footnote'>* Articles on the dangers of Retractible Leashes: Consumer Reports, ABC News, PetMD, Dogster.</p>
       </div>
 
     </section>

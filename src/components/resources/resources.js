@@ -10,8 +10,8 @@ export default (props) => {
           <h1>Resources</h1>
         </div>
         <div className='col-sm-6'>
-          <h4>Positive Reinforcement Dog Trainers <br /> and Animal Behaviorists</h4>
-          <ul className="section-list">
+          <h4>Positive Reinforcement Dog Trainers and Animal Behaviorists</h4>
+          <ul className="section-list no-bullets">
             <li>
               <a href="http://www.apdt.com/">APTD (Association of Professional Dog Trainers)</a> - Search for Certified Professional Dog Trainers (CPDT-KA) in your area.
             </li>
@@ -33,7 +33,7 @@ export default (props) => {
           </ul>
 
           <h4>Veterinary Hospitals</h4>
-          <ul className="section-list">
+          <ul className="section-list no-bullets">
             <li>
               <a href="http://www.centercityvet.com/">Center City Veterinary Hospital</a> - Located at 37 S. 3rd St. (Old City)
             </li>
@@ -43,7 +43,7 @@ export default (props) => {
           </ul>
 
           <h4>Emergency Veterinary Hospitals</h4>
-          <ul className="section-list">
+          <ul className="section-list no-bullets">
             <li>
               <a href="http://www.vsecvet.com/">VSEC</a> – 1114 S. Front St. / 267-800-1950
             </li>
@@ -58,7 +58,7 @@ export default (props) => {
         </div>
         <div className='col-sm-6'>
         <h4>Find A New Companion</h4>
-        <ul className="section-list">
+        <ul className="section-list no-bullets">
           <li>
             Finding a good breeder - <a href="http://www.humanesociety.org/issues/puppy_mills/tips/finding_responsible_dog_breeder.html">HSUS checklist</a> - <a href="http://www.youtube.com/watch?v=yZMegQH1SPg">BBC documentary about purebreds</a>
           </li>
@@ -85,7 +85,7 @@ export default (props) => {
           </li>
         </ul>
         <h4>Miscellaneous</h4>
-        <ul className="section-list">
+        <ul className="section-list no-bullets">
           <li>
             <a href="http://www.petinsurancereview.com/">Pet Insurance Review</a> - Read reviews and compare companies
           </li>

@@ -10,6 +10,8 @@ footer {
  footer .navigation {
   list-style: none;
   text-align: center;
+  background-color: #333;
+  margin-right: 0;
 }
 
 footer .navigation li {
@@ -30,4 +32,10 @@ footer .navigation li a:hover {
   -webkit-transition: color .4s;
   transition: color .4s;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  footer .navigation li {
+    display: block;
+  }
 }
