@@ -5,6 +5,9 @@ table {
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  border: 1px solid #efefef;
+  -webkit-box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #efefef;
 }
 
 thead {
@@ -46,6 +49,10 @@ tr {
   table {
     margin-bottom: 0;
     font-size: 1rem;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    -webkit-box-shadow: 0 2px 2px #FFF;
+    box-shadow: 0 2px 2px #FFF;
   }
 
   thead {

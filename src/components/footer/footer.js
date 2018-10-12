@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../nav/nav';
+import { NavLink } from 'react-router-dom';
 import './footer.css';
 
 export default (props) => {
@@ -8,10 +9,10 @@ export default (props) => {
       <div className="col-sm-12">
       <nav>
         <ul className="navigation footer-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#services">Rates & Services</a></li>
-          <li><a href="#">Policies</a></li>
-          <li><a href="#">Resources</a></li>
+          <li><NavLink to="/">About</NavLink></li>
+          <li><NavLink to="/services">Rates & Services</NavLink></li>
+          <li><NavLink to="/policies">Policies</NavLink></li>
+          <li><NavLink to="/resources">Resources</NavLink></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>

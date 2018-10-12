@@ -2,7 +2,7 @@
   "name": "gooddoggo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rbrazuk.github.io/gooddoggo",
+  "homepage": "http://gooddoggo.s3-website-us-east-1.amazonaws.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",

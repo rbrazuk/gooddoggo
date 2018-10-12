@@ -70,6 +70,7 @@ a:hover {
 .about-pic {
   max-width: 100%;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .list-container {
@@ -130,5 +131,9 @@ a:hover {
   .no-bullets {
     list-style: none;
     padding-left: 0;
+  }
+
+  .about-pic {
+    margin-bottom: 20px;
   }
 }

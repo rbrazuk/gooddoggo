@@ -21,8 +21,9 @@ export default (props) => {
         </div>
 
         <div className='col-sm-12'>
+          <h4>A little bit about me (Stacey)</h4>
 
-          <p>A little bit about me (Stacey): Born and raised in Philadelphia, I have always had an affinity for animals, especially dogs. In high school, I majored in Small Animal Technology at W.B. Saul. I then earned my bachelor’s degree in Psychology from Millersville University, where much of my coursework related to animals and animal behavior. My work experience includes being a grooming salon assistant, dog walker, animal care technician, dog trainer, shelter volunteer coordinator, and veterinary receptionist.</p>
+          <p>Born and raised in Philadelphia, I have always had an affinity for animals, especially dogs. In high school, I majored in Small Animal Technology at W.B. Saul. I then earned my bachelor’s degree in Psychology from Millersville University, where much of my coursework related to animals and animal behavior. My work experience includes being a grooming salon assistant, dog walker, animal care technician, dog trainer, shelter volunteer coordinator, and veterinary receptionist.</p>
 
           <p>Regarding training, I taught classes at PetSmart, worked with What A Good Dog, and taught Teacher’s Pet classes (designed by Carol Siegrist) as the Volunteer Coordinator for the PSPCA. Most recently, I ran the puppy social club at Center City Veterinary Hospital.</p>
 
